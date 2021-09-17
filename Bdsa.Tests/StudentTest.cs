@@ -71,7 +71,7 @@ namespace Bdsa.Tests
 
 
             var output = immutableStudent.ToString();
-            var expected = "ImmutableStudent { Id = 1, GivenName = Lars, Surname = Larsen, Status = Active, StartDate = 01.09.2019 00.00.00, EndDate = 01.06.2023 00.00.00, GraduationDate = 01.06.2023 00.00.00 }";
+            var expected = "ImmutableStudent { Id = 1, GivenName = Lars, Surname = Larsen, Status = Active, StartDate = 01/09/2019 00.00.00, EndDate = 01/06/2023 00.00.00, GraduationDate = 01/06/2023 00.00.00 }";
 
             Assert.Equal(expected, output);
             
