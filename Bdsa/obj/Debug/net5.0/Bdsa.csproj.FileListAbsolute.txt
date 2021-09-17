@@ -1,0 +1,15 @@
+/Users/andreas/Uni/BDSA/as02_g_08/Bdsa/bin/Debug/net5.0/Bdsa.deps.json
+/Users/andreas/Uni/BDSA/as02_g_08/Bdsa/bin/Debug/net5.0/Bdsa.runtimeconfig.json
+/Users/andreas/Uni/BDSA/as02_g_08/Bdsa/bin/Debug/net5.0/Bdsa.runtimeconfig.dev.json
+/Users/andreas/Uni/BDSA/as02_g_08/Bdsa/bin/Debug/net5.0/Bdsa.dll
+/Users/andreas/Uni/BDSA/as02_g_08/Bdsa/bin/Debug/net5.0/ref/Bdsa.dll
+/Users/andreas/Uni/BDSA/as02_g_08/Bdsa/bin/Debug/net5.0/Bdsa.pdb
+/Users/andreas/Uni/BDSA/as02_g_08/Bdsa/obj/Debug/net5.0/Bdsa.csproj.AssemblyReference.cache
+/Users/andreas/Uni/BDSA/as02_g_08/Bdsa/obj/Debug/net5.0/Bdsa.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andreas/Uni/BDSA/as02_g_08/Bdsa/obj/Debug/net5.0/Bdsa.AssemblyInfoInputs.cache
+/Users/andreas/Uni/BDSA/as02_g_08/Bdsa/obj/Debug/net5.0/Bdsa.AssemblyInfo.cs
+/Users/andreas/Uni/BDSA/as02_g_08/Bdsa/obj/Debug/net5.0/Bdsa.csproj.CoreCompileInputs.cache
+/Users/andreas/Uni/BDSA/as02_g_08/Bdsa/obj/Debug/net5.0/Bdsa.dll
+/Users/andreas/Uni/BDSA/as02_g_08/Bdsa/obj/Debug/net5.0/ref/Bdsa.dll
+/Users/andreas/Uni/BDSA/as02_g_08/Bdsa/obj/Debug/net5.0/Bdsa.pdb
+/Users/andreas/Uni/BDSA/as02_g_08/Bdsa/obj/Debug/net5.0/Bdsa.genruntimeconfig.cache
