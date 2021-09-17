@@ -29,6 +29,53 @@ namespace Bdsa.Tests
             Assert.Equal(Status.Active, activeStudent.Status);
             Assert.Equal(Status.Graduate, graduatedStudent.Status);
         }
+
+        [Fact]
+        public void ImmutableStudentEquals()
+        {
+            var s1 = new ImmutableStudent{
+                Id=1,
+                GivenName = "Lars",
+                Surname = "Larsen",
+                Status = Status.Active,
+                StartDate = new DateTime(2019, 9, 1),
+                EndDate = new DateTime(2023, 6, 1),
+                GraduationDate = new DateTime(2023,6,1)
+            };
+            var s2 = new ImmutableStudent{
+                Id=1,
+                GivenName = "Lars",
+                Surname = "Larsen",
+                Status = Status.Active,
+                StartDate = new DateTime(2019, 9, 1),
+                EndDate = new DateTime(2023, 6, 1),
+                GraduationDate = new DateTime(2023,6,1)
+            };
+            
+            Assert.True(s1 == s2);
+        }
+
+
+        [Fact]
+        public void RecordToString () {
+
+            var immutableStudent = new ImmutableStudent{
+                Id=1,
+                GivenName = "Lars",
+                Surname = "Larsen",
+                Status = Status.Active,
+                StartDate = new DateTime(2019, 9, 1),
+                EndDate = new DateTime(2023, 6, 1),
+                GraduationDate = new DateTime(2023,6,1)
+            };
+
+
+            var output = immutableStudent.ToString();
+            var expected = "ImmutableStudent { Id = 1, GivenName = Lars, Surname = Larsen, Status = Active, StartDate = 01.09.2019 00.00.00, EndDate = 01.06.2023 00.00.00, GraduationDate = 01.06.2023 00.00.00 }";
+
+            Assert.Equal(expected, output);
+            
+        }
     }
 }
 
