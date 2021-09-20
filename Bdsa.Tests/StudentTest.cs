@@ -11,7 +11,7 @@ namespace Bdsa.Tests
             var student = new Student(0, "Jens", "Andersen", new DateTime(2008, 10, 10), new DateTime(2010, 10, 10), new DateTime(2009, 10, 9));
             
             var output = student.toString();
-            var expected = "Jens Andersen with id 0 has the status: Graduate. He/she started on 10.10.2008 and stopped at 10.10.2010. He/she is supposed to have graduated at 10.09.2009.";
+            var expected = $"Jens Andersen with id 0 has the status: Graduate. He/she started on {student.StartDate} and stopped at {student.EndDate}. He/she is supposed to have graduated at {student.GraduationDate}.";
             
             Assert.Equal(expected, output);
         }
@@ -71,7 +71,7 @@ namespace Bdsa.Tests
 
 
             var output = immutableStudent.ToString();
-            var expected = "ImmutableStudent { Id = 1, GivenName = Lars, Surname = Larsen, Status = Active, StartDate = 01/09/2019 00.00.00, EndDate = 01/06/2023 00.00.00, GraduationDate = 01/06/2023 00.00.00 }";
+            var expected = "ImmutableStudent { Id = 1, GivenName = Lars, Surname = Larsen, Status = Active, StartDate = " + immutableStudent.StartDate + ", EndDate = " + immutableStudent.EndDate + ", GraduationDate = " + immutableStudent.GraduationDate + " }";
 
             Assert.Equal(expected, output);
             

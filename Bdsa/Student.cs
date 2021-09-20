@@ -32,7 +32,7 @@ namespace Bdsa
         }
 
         public string toString() {
-            return $"{this.GivenName} {this.Surname} with id {this.Id} has the status: {this.Status}. He/she started on {this.StartDate.ToString("MM.dd.yyyy")} and stopped at {this.EndDate.ToString("MM.dd.yyyy")}. He/she is supposed to have graduated at {this.GraduationDate.ToString("MM.dd.yyyy")}.";
+            return $"{this.GivenName} {this.Surname} with id {this.Id} has the status: {this.Status}. He/she started on {this.StartDate.ToString()} and stopped at {this.EndDate.ToString()}. He/she is supposed to have graduated at {this.GraduationDate.ToString()}.";
         }
 
     }
